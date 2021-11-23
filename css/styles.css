@@ -172,7 +172,7 @@ textarea.mod-list-name {
 	left: 8px;
 }
 
-/* Lighten in-Card icons - (not working yet, appears to refresh dynamically) *//
+/* Lighten in-Card icons - (not working yet, appears to refresh dynamically) */
 .badge-icon .icon-sm {
 	color: #ddd;
 }
@@ -209,7 +209,7 @@ textarea.mod-list-name {
   display: none !important;
   margin-bottom: 1px !important;
   margin-top: -24.5px;
-  line-height: 20px !important!
+  line-height: 20px !important;
 }
 
 .phenom:hover .phenom-reactions {
