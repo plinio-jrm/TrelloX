@@ -22,7 +22,6 @@ code { font-size: 12px; color: #4d4d4d; }
 /* Fix Labels to the left of Cards */
 .list-card-labels {
 	margin: 0 !important;
-	position: absolute !important;
 	left: 0;
 	top: 0;
 	height: 100%;
@@ -34,16 +33,6 @@ code { font-size: 12px; color: #4d4d4d; }
 }
 .list-card.subtask .card-short-id {
 	color: #4d4941;
-}
-/* Reshape Labels */
-.card-label.mod-card-front {
-	margin: 0 !important;
-	min-width: 0 !important;
-	font-size: 0 !important;
-	height: 100% !important;
-	width: 6px !important;
-	border-radius: 0 !important;
-	z-index: -1;
 }
 
 /* Format Cards transparent */
