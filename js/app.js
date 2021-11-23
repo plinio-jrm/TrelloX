@@ -1,8 +1,10 @@
-const jquery = require("./lib/jquery-3.6.0");
-var jq = jquery.noConflict(true);
+var jq = $.noConflict(true);
 
 function docReady() {
-	console.log('test');
+	import * as Board from "./app/handlers/board-handler";
+	
+	var test = new Board.BoardHandler();
+	console.log(test);
 }
 
-$(document).ready(docReady);
+jq(document).ready(docReady);
