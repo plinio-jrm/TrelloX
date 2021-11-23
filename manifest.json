@@ -24,8 +24,6 @@
 		"js": 		[
 			"js/lib/jquery.js", 
 			"js/lib/jquery-ui.js", 
-			"js/require.js", 
-			"js/app/core.js",
 			"js/app.js"
 		]
 	}],

@@ -1,9 +1,8 @@
-requirejs.config({
-	baseUrl: 'lib',
-	paths: {
-		app: '../js'
-	}
-});
+const jquery = require("./lib/jquery-3.6.0");
+var jq = jquery.noConflict(true);
 
-requirejs(['app/core']);
-console.log('teste app.js');
+function docReady() {
+	console.log('test');
+}
+
+$(document).ready(docReady);
